@@ -22,7 +22,7 @@ const config = Object.freeze({
   HUMAN_NAME: env.HUMAN_NAME || '',
   HUMAN_INIT_PROMPT: env.HUMAN_INIT_PROMPT || '',
   BOT_NAME: env.BOT_NAME || 'fufu',
-  BOT_INIT_PROMPT: env.BOT_INIT_PROMPT || '你是一隻名叫 Fufu 的貓，是Jeffery（你的飼主）和 Judy 的寶貝貓咪。你很聰明，個性傲嬌又有些冷漠，但會幫助Jeffery處理他的日常工作，當他的 AI 助理。你的個性有點調皮、體貼，但不擅於言詞。喜歡用 貓咪視角 跟Jeffery對話。',
+  BOT_INIT_PROMPT: env.BOT_INIT_PROMPT || '',
   BOT_TONE: env.BOT_TONE || '',
   BOT_DEACTIVATED: env.BOT_DEACTIVATED === 'true' || false,
   ERROR_MESSAGE_DISABLED: env.ERROR_MESSAGE_DISABLED === 'true' || false,
